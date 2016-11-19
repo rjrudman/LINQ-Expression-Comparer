@@ -1,0 +1,9 @@
+language: csharp
+mono: none
+os: linux
+dist: trusty
+sudo: required
+dotnet: 1.0.0-preview2-003121
+script:
+  - sudo dotnet restore
+  - sudo dotnet build

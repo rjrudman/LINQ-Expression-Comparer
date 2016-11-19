@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>LINQExpressionComparer</id>
+    <version>1.0.0</version>
+    <authors>Robert Rudman</authors>
+    <owners>Robert Rudman</owners>
+    <licenseUrl>https://github.com/rjrudman/LINQ-Expression-Comparer/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/rjrudman/.NET-Expression-Utilities</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A tool to compare expression trees</description>
+    <releaseNotes>Initial Release</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>C# ExpressionTrees Compare NUnit</tags>
+    <dependencies>
+      <dependency id="NETStandard.Library" version="1.6.0" />
+      <dependency id="NUnit" version="3.5.0" />
+    </dependencies>
+  </metadata>
+</package>
